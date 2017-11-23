@@ -1,0 +1,53 @@
+<!--<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <md-toolbar color="primary">
+    <span>Keys and Strokes</span>
+    <span class="spacer"></span>   
+</md-toolbar>
+<md-tab-group>
+  <md-tab label="Home">
+  </md-tab>
+  <md-tab label="Articles"> 
+  </md-tab>
+</md-tab-group>
+</ion-content> -->
+<ion-header no-border>
+
+</ion-header>
+
+
+<ion-content padding id="content"  scroll="false" text-center  style="width: 100% !important;">
+  <img src="assets/imgs/loginuser.png" class="logo"/>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+  
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <h2>Please, Login</h2>
+  <form >
+    <ion-item>
+    
+ 
+<ion-label floating class="item item-input item-stacked-label">Username</ion-label>
+      <ion-input   name="username" type="text" placeholder="" required></ion-input>
+    </ion-item>
+    <ion-item>
+<ion-label floating>Password</ion-label>
+      <ion-input  name="password" type="password" placeholder="" required></ion-input>
+    </ion-item>
+    <button ion-button block type="submit">
+      Login
+    </button>
+  </form>
+  <button ion-button block clear (click)="register()">
+    No have an account? Register Now
+  </button>
+
+</ion-content>
